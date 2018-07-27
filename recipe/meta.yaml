@@ -30,12 +30,12 @@ requirements:
     - six
     - sqlalchemy
     - pytables
-    - pyiron_base
-    - pyiron_atomistics
-    - pyiron_dft
-    - pyiron_example_job
-    - pyiron_lammps
-    - pyiron_vasp
+    - pyiron_base {{ version }}
+    - pyiron_atomistics {{ version }}
+    - pyiron_dft {{ version }}
+    - pyiron_example_job {{ version }}
+    - pyiron_lammps {{ version }}
+    - pyiron_vasp {{ version }}
 
 test:
   imports:
