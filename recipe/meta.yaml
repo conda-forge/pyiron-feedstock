@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.1.8" %}
-{% set sha256 = "ef8bc95e0ec8f618d10c56099ae78e4333557b05edc4fdad829d2053c4bafb53" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "726c6d8b0b1438e00fc22212d34e91718243cc47159ae81f625d422b51f7aa88" %}
 
 package:
   name: {{ name|lower }}
@@ -23,19 +23,19 @@ requirements:
 
   run:
     - python
+    - ase
     - h5py
+    - h5io
     - matplotlib
     - numpy
     - pandas
+    - pathlib2
     - six
+    - spglib
     - sqlalchemy
     - pytables
-    - pyiron_base >={{ version }}
-    - pyiron_atomistics >={{ version }}
-    - pyiron_dft >={{ version }}
-    - pyiron_example_job >={{ version }}
-    - pyiron_lammps >={{ version }}
-    - pyiron_vasp >={{ version }}
+    - phonopy
+    - psutil
 
 test:
   imports:
@@ -60,4 +60,4 @@ extra:
   recipe-maintainers:
     - pyiron-runner
     - jan-janssen
-    - sudarsan1989
+    - sudarsan-surendralal
