@@ -23,19 +23,19 @@ requirements:
 
   run:
     - python
+    - ase
     - h5py
+    - h5io
     - matplotlib
     - numpy
     - pandas
+    - pathlib2
     - six
+    - spglib
     - sqlalchemy
     - pytables
-    - pyiron_base >={{ version }}
-    - pyiron_atomistics >={{ version }}
-    - pyiron_dft >={{ version }}
-    - pyiron_example_job >={{ version }}
-    - pyiron_lammps >={{ version }}
-    - pyiron_vasp >={{ version }}
+    - phonopy
+    - psutil
 
 test:
   imports:
