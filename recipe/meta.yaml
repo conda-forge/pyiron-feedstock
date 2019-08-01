@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "a93f3c408d1ac386b655a77c571a4be21715fa80b42b36b4f3e4cd8589b1b2a3" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "c00a808cc7d3e4b9d67536a24599d2bc6bb3473467173c8dccb14dfa87f3589e" %}
 
 package:
   name: {{ name|lower }}
@@ -23,9 +23,9 @@ requirements:
 
   run:
     - python
-    - ase
+    - ase >=3.16
     - h5py
-    - h5io
+    - h5io >=0.1.1
     - matplotlib
     - numpy
     - pandas
@@ -36,6 +36,7 @@ requirements:
     - pytables
     - phonopy
     - psutil
+    - pysqa
 
 test:
   imports:
