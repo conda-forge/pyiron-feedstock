@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -24,19 +24,22 @@ requirements:
   run:
     - python
     - ase >=3.16
-    - h5py
+    - defusedxml
+    - future
     - h5io >=0.1.1
+    - h5py
     - matplotlib
     - numpy
     - pandas
     - pathlib2
-    - six
-    - spglib
-    - sqlalchemy
-    - pytables
     - phonopy
     - psutil
     - pysqa
+    - pytables
+    - scipy
+    - six
+    - spglib
+    - sqlalchemy
 
 test:
   imports:
