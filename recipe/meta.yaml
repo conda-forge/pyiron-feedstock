@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -46,7 +46,7 @@ test:
     - pyiron
 
 about:
-  home: https://github.com/pyiron/pyiron
+  home: https://pyiron.org
   license: BSD-3-Clause
   license_family: BSD
   license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE.txt'
@@ -57,7 +57,7 @@ about:
     thermodynamics. In collaboration with the Interdisciplinary Centre for Advanced Materials Simulation (ICAMS)
     the framework was recently extended for high throughput applications resulting in the opensource release of
     pyiron.
-  doc_url: https://pyiron.org
+  doc_url: https://pyiron.readthedocs.io
   dev_url: https://github.com/pyiron
 
 extra:
