@@ -1,7 +1,7 @@
 About pyiron
 ============
 
-Home: https://github.com/pyiron/pyiron
+Home: https://pyiron.org
 
 Package license: BSD-3-Clause
 
