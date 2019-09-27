@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.2.5" %}
-{% set sha256 = "9af71f15300fe0822a0166b8f5a2da5e744cc33f7cb77f7dbfe76923236b2390" %}
+{% set version = "0.2.6" %}
+{% set sha256 = "68f633cff4b4196e04b2f1433560587ecd05e45c5cbbd27f420ff79174f1bb20" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 2
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
