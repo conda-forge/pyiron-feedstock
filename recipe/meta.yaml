@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.2.9" %}
-{% set sha256 = "2a7176a4852c01e09f4b03981e2b757352a9af27344b945eafe096f5cff18e3f" %}
+{% set version = "0.2.10" %}
+{% set sha256 = "7848fa7cbd8d7ced0e625229c2a2d9b7c23012fcd43ed19544bc88784b9b471e" %}
 
 package:
   name: {{ name|lower }}
@@ -26,6 +26,7 @@ requirements:
     - defusedxml >=0.5.0
     - dill >=0.3.0
     - future >=0.17.1
+    - gitpython >=2.1.11
     - h5io >=0.1.1
     - h5py >=2.9.0
     - matplotlib >=2.2.4
