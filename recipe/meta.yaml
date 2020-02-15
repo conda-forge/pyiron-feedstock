@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -29,7 +29,7 @@ requirements:
     - gitpython >=2.1.11
     - h5io >=0.1.1
     - h5py >=2.9.0
-    - matplotlib >=2.2.4
+    - matplotlib-base >=2.2.4
     - mendeleev >=0.5.1
     - numpy >=1.16.4
     - pandas >=0.24.2
