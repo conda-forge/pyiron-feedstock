@@ -48,6 +48,8 @@ requirements:
 test:
   imports:
     - pyiron
+  commands:
+    - pip check
 
 about:
   home: https://pyiron.org
