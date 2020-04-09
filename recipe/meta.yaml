@@ -45,6 +45,11 @@ requirements:
     - spglib >=1.14.1
     - sqlalchemy >=1.3.8
     - tqdm >=4.35.0
+    - quickff >=2.2.4
+    - modmol >=1.4.5
+    - tamkin >=1.2.6
+    - yaff >=1.4.2
+    - seekpath >=1.9.4
 
 test:
   imports:
