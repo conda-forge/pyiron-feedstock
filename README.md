@@ -5,7 +5,7 @@ Home: https://pyiron.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: pyiron - an integrated development environment (IDE) for computational materials science.
 
