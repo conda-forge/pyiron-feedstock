@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -35,7 +35,7 @@ requirements:
     - numpy >=1.16.4
     - pandas >=0.24.2
     - pathlib2 >=2.3.4
-    - phonopy >=2.3.2
+    - phonopy >=2.3.2,<2.7
     - psutil >=5.6.3
     - pyfileindex >=0.0.4
     - pysqa >=0.0.7
