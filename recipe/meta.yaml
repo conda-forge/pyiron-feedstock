@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "b51555b97aa4edb75cf851d57b9a6ff7e6564ca7f6235283493f08c5ce1c41d8" %}
+{% set version = "0.3.4" %}
+{% set sha256 = "7c0d8e40febc79ac738b9e9444eac1055aad6bd7008036f41c0c7ea26128d957" %}
 
 package:
   name: {{ name|lower }}
@@ -38,7 +38,7 @@ requirements:
     - phonopy >=2.3.2
     - psutil >=5.6.3
     - pyfileindex >=0.0.4
-    - pyiron_base >=0.1.18
+    - pyiron_base >=0.1.21
     - pysqa >=0.0.11
     - pytables >=3.5.1
     - scipy >=1.2.1
