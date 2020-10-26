@@ -5,9 +5,13 @@ Home: https://pyiron.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyiron-feedstock/blob/master/LICENSE.txt)
 
 Summary: pyiron - an integrated development environment (IDE) for computational materials science.
+
+Development: https://github.com/pyiron
+
+Documentation: https://pyiron.readthedocs.io
 
 pyiron was initially developed in the Computational Materials Design department of Joerg Neugebauer at the
 Max Planck Insitut für Eisenforschung (Max Planck Insitute for iron research) as a framework for ab initio
