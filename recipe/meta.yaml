@@ -46,7 +46,7 @@ requirements:
     - tamkin >=1.2.6
     - tqdm >=4.43.0
     - yaff >=1.4.2
-    - pyiron-data >=0.0.2
+    - pyiron-data >=0.0.5
 
 test:
   imports:
