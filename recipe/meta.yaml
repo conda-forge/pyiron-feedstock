@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.3.13" %}
-{% set sha256 = "e29b4c07bb7e92fd5b31a537a5a9434061cd4fa21d08b962aa0e6ffe2543868a" %}
+{% set version = "0.3.14" %}
+{% set sha256 = "cb7e108c4b3241481705d9dc831a61779b8314c1cf413bf218930640c7a70a0e" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,6 @@ requirements:
     - python >3.6
     - ase >=3.20
     - defusedxml >=0.6.0
-    - dill >=0.3.1.1
     - future >=0.18.2
     - h5py >=2.10.0
     - matplotlib-base >=3.2.0
@@ -35,7 +34,7 @@ requirements:
     - phonopy >=2.4.2
     - pymatgen >=2020.9.14
     - pyiron_base >=0.1.28
-    - pyscal >=2.7.5
+    - pyscal >=2.10.5
     - pytables >=3.6.1
     - quickff >=2.2.4
     - scipy >=1.4.1
@@ -44,7 +43,6 @@ requirements:
     - scikit-learn >=0.22
     - spglib >=1.14.1
     - tamkin >=1.2.6
-    - tqdm >=4.43.0
     - yaff >=1.4.2
     - pyiron-data >=0.0.5
 
