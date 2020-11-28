@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.3.16" %}
-{% set sha256 = "73b6a7a1d76a58359570f376f0ee11f90a97c8911ab4fd8bef7083c801860922" %}
+{% set version = "0.3.17" %}
+{% set sha256 = "28f5cb7a4d00f3e9fb7f7f7384d0e84d3a46dc31bc1e68a9a7def599403315aa" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ requirements:
     - pandas >=1.0.1
     - phonopy >=2.4.2
     - pymatgen >=2020.9.14
-    - pyiron_base >=0.1.28
+    - pyiron_base >=0.1.36
     - pyscal >=2.10.5
     - pytables >=3.6.1
     - quickff >=2.2.4
