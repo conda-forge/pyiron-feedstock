@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >3.6
-    - pyiron_atomistics >=0.2.0
+    - pyiron_atomistics >=0.2.5
 
 test:
   imports:
