@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.4.3" %}
-{% set sha256 = "585396ce23042a65cda8f4f7f962d8361c4a9e7d16a487559e1d4757a69b67d6" %}
+{% set version = "0.4.4" %}
+{% set sha256 = "388752261c1a23718d813a205e9c909c6df26a7cebfe7cd1b8631cdde0c498a7" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >3.6
-    - pyiron_atomistics >=0.2.8
+    - pyiron_atomistics >=0.2.16
 
 test:
   imports:
