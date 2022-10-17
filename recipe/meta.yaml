@@ -1,6 +1,6 @@
 {% set name = "pyiron" %}
-{% set version = "0.4.6" %}
-{% set sha256 = "b33b6a34d84cecd4ecc8a3ab2dc29731b30dd5ac0560b373a264a2f84e9d2ec0" %}
+{% set version = "0.4.7" %}
+{% set sha256 = "4787ed76f70e7197b4d4b97a9c39763d792837f52df81c844f1ea5de27c564b2" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,9 @@ requirements:
     - pip
   run:
     - python >3.6
-    - pyiron_atomistics >=0.2.16
+    - pyiron_atomistics >=0.2.58
+    - nglview =3.0.3
+    - ipywidgets <8  # conflict with NGLview
 
 test:
   imports:
