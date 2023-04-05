@@ -1,11 +1,11 @@
-About pyiron
-============
+About pyiron-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyiron-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pyiron.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyiron-feedstock/blob/main/LICENSE.txt)
 
 Summary: pyiron - an integrated development environment (IDE) for computational materials science.
 
@@ -155,7 +155,6 @@ Feedstock Maintainers
 =====================
 
 * [@jan-janssen](https://github.com/jan-janssen/)
-* [@muh-hassani](https://github.com/muh-hassani/)
 * [@niklassiemer](https://github.com/niklassiemer/)
 * [@pmrv](https://github.com/pmrv/)
 * [@pyiron-runner](https://github.com/pyiron-runner/)
