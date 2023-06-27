@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -23,8 +23,7 @@ requirements:
   run:
     - python >3.8
     - pyiron_atomistics >=0.3.0
-    - nglview =3.0.3
-    - ipywidgets <8  # conflict with NGLview
+    - nglview >=3.0.6
 
 test:
   imports:
